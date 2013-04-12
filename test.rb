@@ -24,6 +24,7 @@ class Box
       @area = getWidth() * getHeight
       puts "Big box area is : #@area"
    end
+
    # make it protected
    protected :printArea
 end
